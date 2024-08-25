@@ -26,7 +26,7 @@ public class WeatherDriver {
         Configuration configuration = new Configuration(true);
         //3.设置本地运行
         configuration.set("mapreduce.framework.name","local");
-        configuration.set("mapreduce.cluster.local.dir","/Users/maningyu/workspace/javaprojects/hadoop_temperature/src/main/resources");
+        configuration.set("mapreduce.cluster.local.dir","/Users/workspace/javaprojects/hadoop_temperature/src/main/resources");
         //4.创建Job对象
         Job job = Job.getInstance(configuration);
         //5.设置job对象的相关参数
