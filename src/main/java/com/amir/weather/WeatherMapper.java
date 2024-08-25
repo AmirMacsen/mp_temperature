@@ -16,6 +16,7 @@ import java.util.Date;
  * 2.输入的value的类型: 读取的文本内容
  * 3.输出的key的类型: 将当前行的数据拆分后，封装成Weather对象
  * 4.输出的value的类型： 输出当前行的数据
+ *
  */
 public class WeatherMapper extends Mapper<LongWritable, Text, Weather, Text> {
    // 定义输出的key的对象, 在map重定义对象的好处是，对象只用定义一次
