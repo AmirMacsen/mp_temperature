@@ -19,7 +19,7 @@ public class WeatherDriver {
     public static void main(String[] args) throws Exception {
         //1.判断输入输出路径是否合法
         if(args==null||args.length!=2){
-            System.out.println("Usage:yarn jar myweather.jar com.itbaizhan.WeatherDriver <inputPath> <outputPath>");
+            System.out.println("Usage:yarn jar hadoop_temperature.jar com.amir.WeatherDriver <inputPath> <outputPath>");
             System.exit(1);
         }
         //2.创建配置文件对象，并加载默认的配置
